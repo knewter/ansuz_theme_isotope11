@@ -1,0 +1,118 @@
+body{
+  font-family: "Gill Sans","Franklin Gothic Medium","Lucida Grande",Arial,Helvetica;
+  background: #EDDED6 none repeat scroll 0 50%;
+}
+#wrapper{
+  background: #F8F6ED none repeat scroll 0 50%;
+  border-top: 10px solid #993333;
+  color: black;
+}
+#main{
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+#header{
+  margin-bottom: 10px;
+}
+#header h1{
+  font-size: 260%;
+  padding: 10px 0;
+  width: 260px;
+  color: #c00;
+}
+#header .credits{
+  display: block;
+  background-color: #f8edbb;
+  color: #111;
+  border: 10px solid #ded4a7;
+  border-top: 0;
+  position: absolute;
+  top: 0;
+  left: 500px;
+  padding: 4px 10px 10px 10px;
+  line-height: 1.4em;
+}
+#header .credits a{
+  background-color: #868a1f;
+  padding: 2px;
+  color: white;
+}
+#header h1 span.logo{
+}
+#sidebar{
+  width: 200px;
+  float: left;
+  margin: 0 10px 0 0;
+}
+#navigation h3{
+  display: none;
+}
+#navigation li a{
+  padding: 5px 10px;
+  background: #993333 none repeat scroll 0 50%;
+  border-left: 10px solid #AA301C;
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+#navigation li.active a,
+#navigation li.active a:hover {
+  background: #EDDED6 none repeat scroll 0 50%;
+  border-left: 10px solid #edded6;
+  color: #AA301C;
+  cursor: default;
+}
+#navigation li a:hover {
+  color: #AA301C;
+  border-left: 10px solid #edded6;
+  background-color: #222;
+  background: #EDDED6 none repeat scroll 0 50%;
+}
+div#breadcrumb{
+ margin: -10px -10px 5px -10px;
+ padding: 10px;
+}
+#content{
+  width: 570px;
+  float: left;
+  padding: 10px;
+}
+#footer{
+  margin-top: 10px;
+  background-color: #EDDED6;
+  border-top: 2px solid #993333;
+  color: #AA301C;
+  padding: 10px;
+  text-align: center;
+}
+div.clear{
+  clear: both;
+}
+h2{
+  font-size: 175%;
+  color: #aa301c;
+  border-bottom: 1px solid #CCCCCC;
+}
+h3{
+  font-size: 120%;
+  color: #aa301c;
+  margin: 20px 0 6px;
+}
+p{
+  margin-bottom: 10px;
+}
+ol{
+  margin-left: 20px;
+}
+ol li{
+  list-style-type: decimal;
+}
+.module{
+  background-color: #333;
+  color: #ccc;
+  padding: 10px;
+}
+a{
+  color: #0084FF;
+}
