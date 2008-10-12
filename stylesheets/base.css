@@ -1,6 +1,9 @@
+html{
+  background-color: #002F2F;
+}
 body{
-  font-family: "Gill Sans","Franklin Gothic Medium","Lucida Grande",Arial,Helvetica;
-  background: #002F2F none repeat scroll 0 0;
+  font-family: Arial, Helvetica;
+  background-color: #002F2F;
 }
 #wrapper{
   background: #ACA883 url(/themes/ansuz_theme_isotope11/images/bg_y.png) repeat-x scroll 0 0;
@@ -12,7 +15,7 @@ body{
   margin: 0 auto;
 }
 #main{
-  width: 800px;
+  width: 850px;
   margin: 0 auto;
   position: relative;
 }
@@ -20,22 +23,30 @@ body{
   margin-bottom: 10px;
 }
 #header h1{
+  background: transparent url(/themes/ansuz_theme_isotope11/images/logo.png) no-repeat scroll 0 0;
   font-size: 260%;
   padding: 10px 0;
   width: 260px;
   color: #002f2f;
+  height: 81px;
+  width: 257px;
+  position: relative;
+  top: 30px;
+  left: 4px;
+}
+#header span{
+  display: none;
 }
 #header .credits{
   display: block;
-  background-color: #f8edbb;
-  color: #111;
-  border: 10px solid #ded4a7;
-  border-top: 0;
+  background-color: #aca883;
+  background-color: #666;
+  color: white;
   position: absolute;
   top: 0;
-  left: 500px;
-  padding: 4px 10px 10px 10px;
-  line-height: 1.4em;
+  right: 0;
+  padding: 5px 10px;
+  z-index:101;
 }
 #header .credits a{
   background-color: #868a1f;
@@ -49,19 +60,31 @@ body{
   float: left;
   margin: 0 10px 0 0;
 }
+#navigation{
+  position: absolute;
+  top: 0;
+  width: 850px;
+  background-color: #dad7b4;
+}
 #navigation h3{
   display: none;
+}
+#navigation li{
+  float: left;
+  width: 100px;
+  position: relative;
+  z-index: 100;
 }
 #navigation li a{
   padding: 5px 10px;
   background: #dad7b4 none repeat scroll 0 50%;
-  color: #559096;
+  color: #666;
   display: block;
   text-decoration: none;
 }
 #navigation li.active a,
 #navigation li.active a:hover {
-  background: #559096 none repeat scroll 0 50%;
+  background: #aca883 none repeat scroll 0 50%;
   color: white;
   cursor: default;
 }
@@ -73,9 +96,9 @@ div#breadcrumb{
  padding: 10px;
 }
 #content{
-  width: 570px;
-  float: left;
-  padding: 10px;
+  position: relative;
+  z-index: 100;
+  min-height: 400px;
 }
 #footer{
   margin-top: 10px;
@@ -113,4 +136,34 @@ ol li{
 }
 a{
   color: #0084FF;
+}
+div.curved div.content{
+  background-color: white;
+  padding: 0 10px;
+  font-size: 200%;
+  color: #3b7a81;
+  text-align: center;
+}
+.twocol .col{
+  width: 415px;
+  float: left;
+}
+.twocol .col h3{
+  border-bottom: 10px solid #5d5a42;
+  font-size: 230%;
+  color: black;
+}
+.twocol .col h3 span{
+  font-size: 50%;
+  text-align: left;
+  color: #5d5a42;
+}
+.twocol .col:hover h3{
+  border-color: black;
+}
+.twocol .col:hover h3 span{
+  color: black;
+}
+.twocol .left.col{
+  margin-right:20px;
 }

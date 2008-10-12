@@ -27,24 +27,14 @@
           <div id='header'>
             <h1>
               <span class='logo'></span>
-              <span>Ansuz CMS</span>
+              <span>Isotope11</span>
             </h1>
             <span class='credits'>
-              An open source CMS co-developed by: 
-              <a href="http://www.isotope11.com">Isotope Eleven</a>, 
-              <a href="http://www.isshen.com">Isshen</a>, and 
-              <a href="http://github.com/knewter/ansuz/tree/master">you</a>. 
+              Custom software development for businesses.
             </span>
           </div>
-          <div id='sidebar'>
-            <%= render :partial => "page/top_nav" -%>
-            <%= yield :sidebar -%>
-          </div>
+          <%= render :partial => "page/top_nav" -%>
           <div id='content'>
-            <div class='curved'>
-              <%= theme_image_tag 'curved_header.png' -%>
-              <%= theme_image_tag 'curved_footer.png' -%>
-            </div>
             <%= render :partial => "page/breadcrumb" if (@page && (@page != @root)) -%>
             <%= @content_for_layout -%>
             <%= render :partial => "page/child_nav" if (@page && (!@page.children.empty?)) -%>
