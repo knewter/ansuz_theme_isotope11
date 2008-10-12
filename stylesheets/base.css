@@ -152,6 +152,7 @@ div.curved div.content{
   border-bottom: 10px solid #5d5a42;
   font-size: 230%;
   color: black;
+  margin-top: 0;
 }
 .twocol .col h3 span{
   font-size: 50%;
@@ -166,4 +167,49 @@ div.curved div.content{
 }
 .twocol .left.col{
   margin-right:20px;
+}
+div.scrollable ul.navi{
+  margin: 0;
+  left: 0;
+  width:850px;
+}
+div.items{
+  width: 850px;
+  height: 250px;
+  background: transparent;
+  border: none;
+}
+a.prev, a.next{
+  position: absolute;
+  width: 40px;
+  height: 100px;
+  cursor: pointer;
+}
+a.prev{
+  left: -40px;
+  background: transparent url(/themes/ansuz_theme_isotope11/images/scroll_arrow_left.png) repeat scroll 0 0;
+}
+a.prev:hover {
+  background: transparent url(/themes/ansuz_theme_isotope11/images/scroll_arrow_left.png) repeat scroll 0 0;
+  background-position: 0 100px;
+}
+a.next{
+  right: -40px;
+  background: transparent url(/themes/ansuz_theme_isotope11/images/scroll_arrow_right.png) repeat scroll 0 0;
+}
+a.next:hover {
+  background: transparent url(/themes/ansuz_theme_isotope11/images/scroll_arrow_right.png) repeat scroll 0 0;
+  background-position: 0 100px;
+}
+ul.navi{
+  border: none;
+}
+
+ul.navi li{
+  background: transparent;
+}
+ul.navi a{
+  background: #5D5A42;
+  color: white;
+  border: 0;
 }
