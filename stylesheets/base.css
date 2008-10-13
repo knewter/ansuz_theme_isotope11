@@ -144,6 +144,13 @@ div.curved div.content{
   color: #3b7a81;
   text-align: center;
 }
+
+div.curved div.content em{
+ color: black;
+}
+div.curved div.content em.love{
+ color: red;
+}
 .twocol .col{
   width: 415px;
   float: left;
