@@ -221,3 +221,7 @@ ul.navi li.active a{
   border-width: 1px 0;
   border-top: 1px solid white;
 }
+ul.navi a:hover {
+  border-color: transparent;
+  color: black;
+}
