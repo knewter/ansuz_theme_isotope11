@@ -64,7 +64,6 @@ body{
   position: absolute;
   top: 0;
   width: 850px;
-  background-color: #dad7b4;
 }
 #navigation h3{
   display: none;
@@ -90,6 +89,12 @@ body{
 }
 #navigation li a:hover {
   background-color: #d5d1ad;
+}
+#navigation li ul{
+  display: none;
+}
+#navigation li:hover ul{
+  display: block;
 }
 div#breadcrumb{
  margin: -10px -10px 5px -10px;
