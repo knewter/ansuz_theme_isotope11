@@ -209,7 +209,15 @@ ul.navi li{
   background: transparent;
 }
 ul.navi a{
-  background: #5D5A42;
+  background: transparent;
   color: white;
   border: 0;
+  color: #5d5a42;
+  border-top: 1px solid transparent;
+}
+ul.navi li.active a{
+  background-color: #5d5a42;
+  color: white;
+  border-width: 1px 0;
+  border-top: 1px solid white;
 }
