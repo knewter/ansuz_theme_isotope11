@@ -74,12 +74,16 @@ body{
   position: relative;
   z-index: 100;
 }
-#navigation li a{
+#navigation li a, #navigation li.active li a{
   padding: 5px 10px;
   background: #dad7b4 none repeat scroll 0 50%;
   color: #666;
   display: block;
   text-decoration: none;
+  cursor: pointer;
+}
+#navigation li.active li a:hover {
+  cursor: pointer;
 }
 #navigation li.active a,
 #navigation li.active a:hover {
@@ -92,6 +96,8 @@ body{
 }
 #navigation li ul{
   display: none;
+}
+#navigation li li a{
 }
 #navigation li:hover ul{
   display: block;
