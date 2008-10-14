@@ -2,15 +2,4 @@
   <h2>Tags</h2>
   <%= tag_cloud -%>
 <% end -%>
-<% @blog_posts.each do |blog_post| -%>
-  <div class='blog_post'>
-    <div class="curved">
-      <img src="/themes/ansuz_theme_isotope11/images/curved_header.png" alt="Curved_header" />
-      <div class='contents'>
-        <h2><%=h blog_post.title -%></h2>
-        <%= blog_post.contents -%>
-      </div>
-      <img src="/themes/ansuz_theme_isotope11/images/curved_footer.png" alt="Curved_footer" />
-    </div>
-  </div>
-<% end -%>
+<%= render :partial => 'articles/article', :collection => @blog_posts -%>
