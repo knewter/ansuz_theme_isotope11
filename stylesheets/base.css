@@ -259,6 +259,13 @@ ul#top-nav{
   left: 0;
 }
 
+.blog_post h2.title{
+  border: 0;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-size: 200%;
+}
+
 .blog_post h3.time{
   position: absolute;
   left: -100px;
@@ -267,4 +274,5 @@ ul#top-nav{
   padding: 10px;
   background-color: #559096;
   color: white;
+  text-align: right;
 }
