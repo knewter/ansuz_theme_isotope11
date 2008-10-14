@@ -247,3 +247,8 @@ ul#top-nav{
   position: relative;
   z-index: 200;
 }
+
+.blog_post .curved .contents{
+  background-color: white;
+  padding: 10px;
+}
