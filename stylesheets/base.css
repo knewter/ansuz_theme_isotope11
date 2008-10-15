@@ -1,9 +1,9 @@
 html{
-  background-color: #002F2F;
+  background: #5D5A42;
 }
 body{
   font-family: Arial, Helvetica;
-  background-color: #002F2F;
+  background: #5D5A42;
 }
 #wrapper{
   background: #ACA883 url(/themes/ansuz_theme_isotope11/images/bg_y.png) repeat-x scroll 0 0;
@@ -112,11 +112,14 @@ div#breadcrumb{
   min-height: 400px;
 }
 #footer{
-  margin-top: 10px;
-  background: #002F2F none repeat scroll 0 0;
-  color: #BBBBBB;
+  background: #5D5A42;
+  color: white;
   padding: 10px;
   text-align: center;
+  margin: 10px auto 0 auto;
+}
+#footer a, #footer a:visited {
+ color: white;
 }
 div.clear{
   clear: both;
