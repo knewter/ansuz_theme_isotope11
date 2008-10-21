@@ -113,10 +113,13 @@ div#breadcrumb{
 }
 #footer{
   margin-top: 10px;
-  background: #002F2F none repeat scroll 0 0;
-  color: #BBBBBB;
+  background: #002f2f none repeat scroll 0 0;
+  color: #efecca;
   padding: 10px;
   text-align: center;
+}
+#footer a, #footer a:visited {
+  color: #efecca;
 }
 div.clear{
   clear: both;
@@ -124,7 +127,7 @@ div.clear{
 h2{
   font-size: 175%;
   color: #559096;
-  border-bottom: 1px solid #CCCCCC;
+  border-bottom: 1px solid #cccccc;
 }
 h3{
   font-size: 120%;
