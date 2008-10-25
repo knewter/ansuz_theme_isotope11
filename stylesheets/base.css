@@ -34,7 +34,7 @@ body{
   top: 30px;
   left: 4px;
 }
-#header span{
+#header span.logotext{
   display: none;
 }
 #header .credits{
@@ -281,4 +281,27 @@ ul#top-nav{
   background-color: #559096;
   color: white;
   text-align: right;
+}
+
+#testimonials{
+  width: 560px;
+  height: 60px;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  top: 50px;
+  color: #5D5A42;
+}
+
+#testimonials .testimonial{
+  width: 560px;
+  height: 60px;
+}
+
+.testimonial .content{
+  font-size: 1.5em;
+}
+.testimonial .attributed_to{
+  font-style: oblique;
+  color: black;
 }
