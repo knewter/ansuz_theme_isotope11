@@ -305,3 +305,11 @@ ul#top-nav{
   font-style: oblique;
   color: black;
 }
+div.note{
+  padding: 10px;
+  background-color: #666;
+  color: white;
+}
+div.note a{
+  color: #eee;
+}
