@@ -6,11 +6,11 @@ body{
   background: #5D5A42;
 }
 #wrapper{
-  background: #ACA883 url(/themes/ansuz_theme_isotope11/images/bg_y.png) repeat-x scroll 0 0;
+  background: #ACA883 url(/themes/isotope11/images/bg_y.png) repeat-x scroll 0 0;
   color: black;
 }
 #content_wrapper{
-  background: #ACA883 url(/themes/ansuz_theme_isotope11/images/bg.png) no-repeat scroll 0 0;
+  background: #ACA883 url(/themes/isotope11/images/bg.png) no-repeat scroll 0 0;
   width: 920px;
   margin: 0 auto;
 }
@@ -23,7 +23,7 @@ body{
   margin-bottom: 10px;
 }
 #header h1{
-  background: transparent url(/themes/ansuz_theme_isotope11/images/logo.png) no-repeat scroll 0 0;
+  background: transparent url(/themes/isotope11/images/logo.png) no-repeat scroll 0 0;
   font-size: 260%;
   padding: 10px 0;
   width: 260px;
@@ -211,18 +211,18 @@ a.prev, a.next{
 }
 a.prev{
   left: -40px;
-  background: transparent url(/themes/ansuz_theme_isotope11/images/scroll_arrow_left.png) repeat scroll 0 0;
+  background: transparent url(/themes/isotope11/images/scroll_arrow_left.png) repeat scroll 0 0;
 }
 a.prev:hover {
-  background: transparent url(/themes/ansuz_theme_isotope11/images/scroll_arrow_left.png) repeat scroll 0 0;
+  background: transparent url(/themes/isotope11/images/scroll_arrow_left.png) repeat scroll 0 0;
   background-position: 0 100px;
 }
 a.next{
   right: -40px;
-  background: transparent url(/themes/ansuz_theme_isotope11/images/scroll_arrow_right.png) repeat scroll 0 0;
+  background: transparent url(/themes/isotope11/images/scroll_arrow_right.png) repeat scroll 0 0;
 }
 a.next:hover {
-  background: transparent url(/themes/ansuz_theme_isotope11/images/scroll_arrow_right.png) repeat scroll 0 0;
+  background: transparent url(/themes/isotope11/images/scroll_arrow_right.png) repeat scroll 0 0;
   background-position: 0 100px;
 }
 ul.navi{
@@ -307,7 +307,7 @@ ul#top-nav{
 }
 div.note{
   padding: 10px;
-  background-color: #666;
+  background-color: #5D5A42;
   color: white;
 }
 div.note a{
