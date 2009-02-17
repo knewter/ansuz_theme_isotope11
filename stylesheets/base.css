@@ -95,12 +95,12 @@ body{
   background-color: #d5d1ad;
 }
 #navigation li ul{
-  display: none;
+  margin-left: -999999px;
 }
 #navigation li li a{
 }
 #navigation li:hover ul{
-  display: block;
+  margin-left: -999999px;
 }
 div#breadcrumb{
  margin: -30px 0 0 70px;
@@ -272,6 +272,10 @@ ul#top-nav{
   font-size: 200%;
 }
 
+.blog_post h2.title a{
+  color: #559096;
+}
+
 .blog_post h3.time{
   position: absolute;
   left: -100px;
@@ -299,7 +303,7 @@ ul#top-nav{
 }
 
 .testimonial .content{
-  font-size: 1.1em;
+  font-size: .9em;
 }
 .testimonial .attributed_to{
   font-style: oblique;
